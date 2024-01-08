@@ -1,0 +1,50 @@
+ Q.1  Explain what javascript is and its role in web devlopment?	
+Ans.  JavaScript is a scripting or programming language. it is a dynamic programming language that's used for web development, in web applications, for game development, and lots more.
+	JavaScript is a foundations of web development, enabling interactivity, dynamic content, and improved user experiences.JavaScript is used to write programs that govern the HTML and CSS.
+
+Q.2  Explain the key difference between javascript and HTML. Provide examples of situations where you would use each?
+Ans. 
+1. JavaScript is a high-level scripting language introduced by Netscape to be run on the client-side of the web browser.HTML is the most basic building block of the Web. It defines the meaning and structure of web content.
+2. JavaScript is an advanced programming language that makes web pages more interactive and dynamic.HTML is a standard markup language that provides the primary structure of a website.
+3. JavaScript is an advanced programming language used to create dynamic web pages.HTML is rendered from all server-side which is different from client-side scripting.
+4. It requires JS engine to run the code.It requires any web browser to display the content.
+5. JavaScript files are saved with .js extension.HTML files are saved with an extension .html . 
+
+Q.3 List and describe the five primitive data types in javascript?
+Ans: In Javascript, there are five basic, or primitive, types of data. The five most basic types of data are:-
+ 1. strings:- The string data type in JavaScript represents a sequence of characters that are surrounded by single or double quotes.
+ 2. numbers:- Number data type in javascript can be used to hold decimal values as well as values without decimals.
+ 3. booleans:- Represent a logical entity and can have two values: true or false.
+ 4. undefined:- A variable that has not been assigned a value is undefined.
+ 5. null:- This type has only one value that is null.
+
+Q.4  what the purpose of declaring variables in javascript,and how do you declare them using the 'let'keyword?
+Ans:- Variables can represent any type of data, such as Booleans, names, sounds, scalars, texts, integers, arrays, images, or any item or class of objects supported by the computer language.
+	let a1=[1,2,3,4,5]
+let a2=[6,7,8]
+let a3=a1.concat(a2);
+console.log(a3)
+
+Q.5 Explain the importance of comments in javascript and provide examples of single-line and multi-line comments?
+Ans:- JavaScript comments are used to explain the code to make it more readable.
+Single line comments start with //.
+Example:- //javascript comments
+
+Multi-line comments start with /* and end with */.
+Example:- /* This is javascript
+	multiple comments
+	*/
+
+Q.6 Explain the importance of choosing meaningful and descriptive variable names in javascript.provide an example where using a clear identifier improvers code readability?
+Ans:- Using descriptive and meaningful names for variables and functions helps improve the clarity and maintainability of the code. Even in a more complex example, using good naming conventions can make a big difference in how easily the code can be understood and maintained.
+Example:-
+	const myArray=[1,2,3,4,5]
+const mynewyArray=new Array(1,2,3,4,5,6)
+
+console.log(myArray[2]);
+console.log(mynewyArray.length);
+
+
+
+
+
